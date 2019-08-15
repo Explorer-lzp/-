@@ -1,0 +1,414 @@
+/* banner部分样式开始 */
+.banner .banner_list {
+    background: #c81623;
+    margin-top: -47px;
+}
+
+.banner_list h3 {
+    width: 209px;
+    height: 47px;
+    background: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    line-height: 47px;
+    text-align: center;
+}
+
+.banner_list ul li {
+    height: 31px;
+    padding-left: 13px;
+    padding-right: 11px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.banner_list ul li a {
+    color: #fff;
+}
+
+.banner_list ul li span {
+    float: right;
+}
+
+.banner_list ul li:hover {
+    background: #fff;
+    color: #c82613;
+}
+
+.banner_list ul li:hover a {
+    color: #c82613;
+}
+
+.banner_list ul li a:hover {
+    color: #ccc;
+}
+
+
+/* 轮播图部分 */
+.banner_slider {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.banner_slider {
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.banner_slider ul {
+    width: 600%;
+}
+
+.banner_slider li {
+    float: left;
+}
+
+.banner_slider .arrow_l,
+.banner_slider .arrow_r {
+    /* display: none; */
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    background: rgba(0, 0, 0, .5);
+    margin-top: -30px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner_slider .arrow_r {
+    right: 0;
+}
+
+.banner_slider .arrow_l:hover,
+.banner_slider .arrow_r:hover {
+    background: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, .6);
+}
+
+.banner_slider:hover .iconfont {
+    display: block;
+}
+
+
+
+
+/* 信息栏部分 */
+/* 信息栏上部 */
+.banner_inform {
+    width: 248px;
+    height: 170px;
+    border: 1px solid #e4e4e4;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.banner_top {
+    /* height: 170px; */
+    padding-top: 12px;
+}
+
+.banner_top ul {
+    height: 133px;
+}
+
+.banner_top .inform_top {
+    padding: 0 16px 8px 16px;
+    border-bottom: 1px #e4e4e4 dashed;
+}
+
+.banner_top .inform_center {
+    padding-left: 16px;
+
+}
+
+.banner_top .inform_center ul li {
+    padding-top: 10px;
+}
+
+/* 信息栏中部 */
+.inform_class {
+    /* margin-top: 10px; */
+    width: 248px;
+    margin-bottom: 10px;
+}
+
+.inform_class li {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 65px;
+    text-align: center;
+    border: #e4e4e4 1px solid;
+}
+
+.inform_class li em {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px 20px 13px;
+    /* border: 1px red solid; */
+    background-image: url(../images/icons.png);
+}
+
+.inform_class li:first-child em {
+    background-position: -16px -16px;
+}
+
+.inform_class li:nth-child(2) em {
+    background-position: -80px -16px;
+}
+
+.inform_class li:nth-child(3) em {
+    background-position: -142px -16px;
+}
+
+.inform_class li:nth-child(4) em {
+    background-position: -206px -16px;
+}
+
+.inform_class li:nth-child(5) em {
+    background-position: -16px -86px;
+}
+
+.inform_class li:nth-child(6) em {
+    background-position: -78px -86px;
+}
+.inform_class li:nth-child(7) em {
+    background-position: -143px -86px;
+}
+.inform_class li:nth-child(8) em {
+    background-position: -207px -86px;
+}
+.inform_class li:nth-child(9) em {
+    background-position: -16px -156px;
+}
+.inform_class li:nth-child(10) em {
+    background-position: -78px -156px;
+}
+.inform_class li:nth-child(11) em {
+    background-position: -141px -154px;
+}
+.inform_class li:nth-child(12) em {
+    background-position: -206px -156px;
+}
+/* 图片推荐部分 */
+.recom {
+    margin-top: 10px;
+}
+
+.recom_1 ul li.recom_first {
+    width: 200px;
+    height: 162px;
+    background-color: #5c5251;
+}
+
+.recom_1 li {
+    float: left;
+}
+
+.recom_1 .recom_today {
+    position: absolute;
+    color: #fff;
+    width: 60px;
+    /* border: 1px red solid; */
+    left: 70px;
+    top: 20%;
+}
+
+.recom_today span {
+    display: block;
+    padding-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+
+
+/* 猜你喜欢开始 */
+.maybe {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    /* border: 1px red solid; */
+}
+
+.maybe span {
+    font-size: 20px;
+}
+
+.maybe a {
+    float: right;
+    padding-right: 20px;
+}
+
+.like table {
+    border-collapse: collapse;
+}
+
+.like table td {
+    width: 205px;
+    height: 230px;
+    border: 1px #ededed solid;
+
+}
+
+.like .like_text {
+    text-align: center;
+    width: 100%;
+}
+
+.like_text span {
+    font-size: 14px;
+    color: #df3033;
+}
+
+/* 猜你喜欢结束 */
+
+
+
+/* 传智播客有趣区开始 */
+.fun {
+    margin-top: 30px;
+}
+
+.fun_top {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.fun_top p {
+    padding-bottom: 10px;
+}
+
+.fun_l {
+    width: 390px;
+    height: 404px;
+}
+
+.fun_list,
+.street_text {
+    padding: 10px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.x {
+    border: 1px solid #ededed;
+}
+
+.adidas {
+    width: 200px;
+}
+
+.nike {
+    width: 203px;
+}
+
+.fun_r table {
+    border-collapse: collapse;
+    border: 1px solid #ededed;
+}
+
+.fun_r table td {
+    height: 55px;
+    border: 1px dashed #ededed;
+}
+
+/* 传智播客有趣区结束 */
+
+
+/* 家用电器区开始 */
+.domestic_top {
+    margin-top: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid rgb(200, 22, 35);
+}
+
+.domestic_top span {
+    font-size: 20px;
+}
+
+.domestic_top ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.domestic_top ul li.line {
+    margin-top: 10px;
+    width: 1px;
+    height: 12px;
+    background: rgb(153, 153, 153)
+}
+
+.domestic_l_01 {
+    border: #ededed 1px solid;
+    width: 185px;
+    height: 233px;
+}
+
+.domestic_c {
+    width: 334px;
+    border: 1px solid #ededed;
+}
+
+.domestic_r table,
+.domestic_l table {
+    border-collapse: collapse;
+    border: 1px solid #ededed;
+}
+
+.domestic_r table td {
+    border: 1px solid #ededed;
+}
+
+.domestic_l table td {
+    border: 1px dashed #ededed;
+    text-align: center;
+}
+
+.domestic_l table td {
+    width: 94px;
+    height: 40px;
+}
+
+.pic_bt {
+    margin-top: 20px;
+    background: #f7f7f7;
+}
+
+.pic_bt ul {
+    margin-left: 7px;
+}
+
+.pic_bt ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float: left;
+    border-right: 1px #ccc dashed;
+}
+
+.pic_bt ul li:last-child {
+    border-right: none;
+}
+
+.phonebox,
+.computer {
+    margin-bottom: 95px;
+}
+
+/* 家用电器区结束 */
+
+
+
+
+
+/* 热门疯抢开始 */
+
+/* 热门疯抢开始 */

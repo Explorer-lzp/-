@@ -1,0 +1,294 @@
+/* 调试边框样式 */
+.cs {
+    border: solid red 1px;
+}
+
+/* 品优购页面字体主色调 */
+.col_rd {
+    color: #c81623 !important;
+}
+
+/* 头部工具栏开始 */
+.topbar {
+    background: pink;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    background: #f1f1f1;
+}
+
+.topbar_wel {
+    line-height: 30px;
+}
+
+.topbar_wel a:nth-child(2) {
+    margin: 0 14px;
+}
+
+.top_box {
+    height: 150px;
+    border-bottom: 2px solid #b2191b;
+}
+
+.topbar_nav ul li {
+    line-height: 30px;
+    float: left;
+}
+
+.topbar_nav ul li.line {
+    background: #666;
+    width: 1px;
+    height: 12px;
+    margin: 10px 16px;
+}
+
+.topbar_nav li i {
+    margin-left: 8px;
+    font-weight: 600px;
+}
+
+/* 头部工具栏结束 */
+
+
+/* 头部内容部分开始 */
+.top_content {
+    height: 150px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.top_logo {
+    margin-top: 25px;
+}
+
+.top_logo {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url('../images/logo.png') no-repeat;
+    font-size: 0;
+}
+
+.top_class {
+    width: 210px;
+    height: 45px;
+    background: #b2191b;
+    text-align: center;
+}
+
+.top_class span {
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.top_center {
+    margin-top: 25px;
+    margin-left: 170px;
+    float: left;
+}
+
+.search input[type="text"] {
+    float: left;
+    width: 454px;
+    height: 32px;
+    border-right: none;
+    text-indent: 10px;
+    border: 2px #b2191c solid;
+}
+
+.search input[type="button"] {
+    float: left;
+    height: 36px;
+    width: 83px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #b2191c;
+    border: 2px #b2191c solid;
+    text-align: center;
+}
+
+.hot_product ul li {
+    margin: 8px 13px;
+}
+
+.shopcar {
+    position: relative;
+    margin-top: 25px;
+    margin-right: 62px;
+    width: 138px;
+    height: 34px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background: #f7f7f7;
+    line-height: 34px;
+}
+.shopcar .num{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px 8px 8px 0;
+    background:#e60012;
+    line-height: 15px;
+    color:#fff;
+    top:-10px;
+    right:20px;
+}
+.shopcar a{
+    margin: 0 5px;
+}
+.shopcar i {
+    color: #b2191c;
+    font-weight: 600;
+}
+
+.header_nav {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
+
+.header_nav li {
+    float: left;
+    margin-right: 52px;
+    font-size: 16px;
+}
+
+.header_nav li a {
+    color: #333;
+}
+
+.header_nav li a:hover {
+    color: #b2191c;
+}
+
+/* 头部内容部分结束 */
+
+
+
+
+
+
+
+
+/* 底部部分开始 */
+/* 底部口号 */
+
+.footer {
+    background: #f5f5f5;
+    margin-top: 30px;
+    /* padding-bottom: 50px; */
+}
+
+.footer .foot_slogon {
+    padding: 30px 0 30px 34px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .foot_slogon ul li {
+    width: 19%;
+    float: left;
+
+}
+
+.footer .foot_slogon li h3 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat;
+    background-position: -253px -3px;
+    font-size: 0px;
+    margin-right: 7px;
+}
+
+.footer .foot_slogon li:nth-child(2) h3 {
+    background-position: -255px -53px;
+}
+
+.footer .foot_slogon li:nth-child(3) h3 {
+    background-position: -257px -106px;
+}
+
+.footer .foot_slogon li:nth-child(4) h3 {
+    background-position: -257px -156px;
+}
+
+.footer .foot_slogon li:nth-child(5) h3 {
+    background-position: -256px -209px;
+}
+
+.slogon_text {
+    padding: 4px 0;
+}
+
+.slogon_text h5 {
+    padding: 4px 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+
+/* 底部导航 */
+.foot_nav {
+    margin-left: 32px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ededed;
+}
+
+.foot_nav dl {
+    margin-top: 30px;
+    float: left;
+    margin-right: 120px;
+}
+
+.foot_nav dl:last-child {
+    width: 90px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.foot_nav dl dt {
+    height: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.foot_nav dl dd {
+    line-height: 20px;
+}
+
+.foot_nav dl dd a {
+    color: #333;
+}
+
+.foot_nav dl dd a:hover {
+    color: #c82613;
+}
+
+/* 底部版权信息 */
+.copy {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.copy ul {
+    width: 1004px;
+    margin: 0 auto 15px;
+}
+
+.copy ul li {
+    float: left;
+}
+
+.copy ul li.line {
+    height: 12px;
+    width: 1px;
+    background-color: #666;
+    margin: 2px 16px;
+}
+
+.copy p {
+    text-align: center;
+    line-height: 20px;
+}
+
+/* 底部部分结束 */

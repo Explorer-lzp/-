@@ -1,0 +1,248 @@
+.top_content {
+    z-index: 5;
+}
+
+.banner_list {
+    background: #c81623;
+    /* margin-top: -47px; */
+    position: absolute;
+    top: 104px;
+}
+
+.banner_list ul {
+    display: none;
+}
+
+.banner_list:hover ul {
+    display: block;
+
+}
+
+.banner_list h3 {
+    width: 209px;
+    height: 47px;
+    background: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    line-height: 47px;
+    text-align: center;
+}
+
+.banner_list ul li {
+    height: 31px;
+    padding-left: 13px;
+    padding-right: 11px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.banner_list ul li a {
+    color: #fff;
+}
+
+.banner_list ul li span {
+    float: right;
+}
+
+.banner_list ul li:hover {
+    background: #fff;
+    color: #c82613;
+}
+
+.banner_list ul li:hover a {
+    color: #c82613;
+}
+
+.banner_list ul li a:hover {
+    color: #ccc;
+}
+
+
+/* 面包屑导航 */
+.crumb_wrap {
+    padding: 25px 0 10px 0;
+}
+
+.crumb_wrap i {
+    margin: 0 13px;
+}
+
+/* 展示图片 */
+.preview-wrap {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    border: solid #ededed 1px;
+}
+
+.preview-wrap .wrap img {
+    position: absolute;
+    width: 100%;
+}
+
+/* 略缩图 */
+.preview-img .arrow-prev,
+.preview-img .arrow-next {
+    margin-top: 15px;
+}
+
+.preview-img .arrow-prev {
+    margin-right: 33px;
+}
+
+.preview-img .arrow-next {
+    margin-left: 33px;
+}
+
+.preview-items .iphone6_pic {
+    width: 58px;
+    height: 58px;
+    /* border:1px red solid; */
+}
+
+.preview-items .iphone6_pic:hover {
+    outline: 1px solid red;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.preview-items .iphone6_pic img {
+    width: 100%;
+}
+
+/* 略缩图文本 */
+.preview_text {
+    margin-top: 26px;
+}
+
+.preview_text .share {
+    margin: 0 37px 0 33px;
+}
+
+.preview_text .focus {
+    margin-right: 60px;
+}
+
+.preview_text input {
+    vertical-align: middle;
+}
+
+/* 产品介绍部分 */
+.product-intro {
+    margin-left: 80px;
+}
+
+.intro_top h5 {
+    font-size: 16px;
+    color: #333;
+}
+
+.intro_top p {
+    padding: 20px 0 20px 0;
+    font-size: 12px;
+    color: #e12228
+}
+
+
+/* 价格部分 */
+.product-intro .price {
+    width: 718px;
+    height: 113px;
+    background-color: #fee9eb;
+}
+
+.price .price_l {
+    margin: 11px 12px 0px 6px;
+    width: 47px;
+    height: 40px;
+    line-height: 19px;
+    color: #666;
+    /* border: 1px solid red; */
+}
+
+.price .price_c {
+    width: 550px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.price .price_c span {
+    color: #e12228;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price_c span.price_add {
+    color: #fff;
+    background: #d61523;
+    font-size: 12px;
+}
+
+.price_r {
+    margin-top: 11px;
+    margin-right: 7px;
+}
+
+.price_r p {
+    color: #919184;
+}
+
+.price_r span {
+    color: #226969;
+}
+
+/* 配送部分 */
+.send {
+    margin-top: 10px;
+}
+
+.send .send_r {
+    margin-left: 15px;
+}
+
+.send .send_l {
+    margin: 0 12px 0 6px;
+    width: 47px;
+    height: 40px;
+    color: #666;
+    line-height: 19px;
+}
+
+/* 选择套餐 */
+.choose {
+    border: 1px solid #f8f8f8;
+    margin-top: 9px;
+    padding-top: 15px;
+    width: 546px;
+}
+
+.choose_color a {
+    display: inline-block;
+    padding: 13px 26px 15px 26px;
+    background: #f7f7f7;
+    color: #353535;
+    margin-left: 7px;
+}
+
+.choose .version a,
+.choose .ram a,
+.choose .buy_way a,
+.choose .suit a {
+    display: inline-block;
+    padding: 10px 14px;
+    margin-top: 7px;
+    background: #f7f7f7;
+    color: #353535;
+    margin-left: 7px;
+}
+
+.choose .suit a {
+    margin-bottom: 10px;
+}
+
+/* 立即抢购 */
+.buy_now input {
+    width: 65px;
+    height: 18px;
+    border: 1px red solid;
+}
